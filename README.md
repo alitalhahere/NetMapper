@@ -2,7 +2,9 @@
 
 **Network Topology Mapper & Asset Discovery – ARP scan, SNMP neighbours, interactive visualisation.**
 
-![Python](https://img.shields.io/badge/python-3.8%2B-blue) ![License](https://img.shields.io/badge/license-MIT-green) ![Network](https://img.shields.io/badge/Network-Scanner-orange)
+![Python](https://img.shields.io/badge/python-3.8%2B-blue) 
+![License](https://img.shields.io/badge/license-MIT-green) 
+![Network](https://img.shields.io/badge/Network-Scanner-orange)
 
 ## 🎯 Purpose
 
@@ -41,10 +43,6 @@ sudo python netmapper.py 192.168.1.0/24 --snmp-community public --output ./repor
 
 - snmp-cmds – SNMP neighbour queries
 
-## 📜 License
-
-- MIT
-
 ## 👤 Author
 
-Ali Talha – 
+Ali Talha – [LinkedIn](https://www.linkedin.com/in/imalitalha)
