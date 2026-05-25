@@ -13,8 +13,15 @@ NetMapper discovers live hosts on your network, queries SNMP for LLDP/CDP neighb
 ## 📦 Installation
 
 ```bash
+# Clone the repository
 git clone https://github.com/alitalhahere/NetMapper.git
 cd NetMapper
+
+# Create and activate a virtual environment (required on Kali)
+python3 -m venv venv
+source venv/bin/activate
+
+# Install dependencies
 pip install -r requirements.txt
 ```
 
