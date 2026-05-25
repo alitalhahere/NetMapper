@@ -30,7 +30,7 @@ pip install -r requirements.txt
 ## 🚀 Usage
 
 ```bash
-sudo python netmapper.py 192.168.1.0/24 --snmp-community public --output ./reports
+sudo venv/bin/python netmapper.py 192.168.1.0/24 --snmp-community public --output ./reports
 ```
 - sudo needed for ARP scanning (raw sockets).
 - --snmp-community – default public; change if your devices use a different community.
